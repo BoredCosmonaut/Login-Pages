@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://images.alphacoders.com/596/thumbbig-596697.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#Login {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+img {
+    padding-top: 1.5rem;
+    margin-left: 4rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 1s;
+}
+
+
+#username {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+#usernameLabel {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+
+#usernameInput {
+    border-style: bold;
+    border-radius: 8px;
+}
+
+#password {
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+#passwordLabel {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+
+#passwordInput {
+    border-style: bold;
+    border-radius: 8px;
+}
+
+#loginButton {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    background: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 5rem;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+
+#rememberMeLabel {
+    font-family: 'Oswald', sans-serif;
+}
+
+#rememberMe {
+    margin-left: 2rem;
+    padding-bottom: 20px;
+
+}
+
+#loginButton:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
